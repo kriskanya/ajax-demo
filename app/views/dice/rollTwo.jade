@@ -1,0 +1,14 @@
+extends ../shared/template
+
+block content
+  h1 Roll Two Dice
+
+  form#dice
+    button#rollDice Roll Two Dice
+
+  #resultDice1
+  #resultDice2
+  #winner
+
+block scripts
+  script(src='/js/es6/compiled/rollTwo.js')
